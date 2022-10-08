@@ -1,0 +1,87 @@
+ 
+ 
+ *{
+    font-family: 'Montserrat', sans-serif;
+ }
+
+ /* Cabeçalho da página */
+
+ header{
+    background-color: rgb(128, 0, 70);
+    display: flex;
+    align-items: center;    
+    
+ }
+
+ header nav div ul{
+    display: flex;
+    list-style: none;
+    gap: 3vw;
+    align-items: center;
+    
+ }
+
+ header nav ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 1.4em;
+    font-weight: 900;
+    letter-spacing: 1px;
+ }
+
+ header nav ul li img{
+    max-width: 75px;
+    max-height: 175px;
+ }
+
+ a:hover{
+    color: #ff06e2
+ }
+
+ /* Seção Sobre */
+
+ .secaoPrincipal{    
+    color: rgb(128, 0, 70);
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;    
+ }
+
+
+.secaoPrincipal h1{
+    font-size: 3em;
+    margin: 20px 0 0 0;
+}
+
+.secaoPrincipal h1::after{
+    display: block;
+    content: "";
+    margin: 5px auto;
+    background-color: rgb(128, 0, 70);
+    width: 730px;
+    height: 5px;
+    border-radius: 3px;
+    
+}
+
+.secaoPrincipal h2{
+    font-size: 1.4em;
+    margin: 5px;
+    
+}
+
+.secaoPrincipalTexto img{
+    height: 400px;
+    width: 400px;
+}
+
+.secaoPrincipalTexto{
+    margin-top: 30px;
+    display: flex;
+    flex-flow: row;
+    max-width: 80vw;
+    gap: 50px;
+    font-size: 1.5em;
+}
