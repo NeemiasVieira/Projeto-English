@@ -13,6 +13,10 @@
     
  }
 
+ header nav div{
+   position: sticky;
+ }
+
  header nav div ul{
     display: flex;
     list-style: none;
@@ -84,4 +88,46 @@
     max-width: 80vw;
     gap: 50px;
     font-size: 1.5em;
+}
+
+/* Plataforma */
+
+.SecaoPlataforma{
+   display: flex;
+   flex-flow: row;
+   margin: 0 0 0 30px;
+   gap: 15px;
+}
+
+.Nav-Div{
+   max-width: 20vw;
+   display: flex;
+   flex-wrap: wrap;
+   flex-flow: column;
+   gap: 5px;
+   border: solid black 5px;
+}
+
+.Imagem-Nav{
+   height: 150px;
+   width: 250px;
+   filter:grayscale(1);
+   
+}
+
+.Imagem-Nav:hover{
+   filter: grayscale(0);
+}
+
+.galeria{
+   max-width: 75vw;
+   max-height: 625px;
+   margin: 0 0 0 auto;
+   overflow: hidden;
+}
+
+.galeria img{
+   width: 70vw;
+   height: 615px;
+   border: solid black 5px;
 }
