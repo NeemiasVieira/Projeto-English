@@ -95,7 +95,7 @@
 .SecaoPlataforma{
    display: flex;
    flex-flow: row;
-   margin: 0 0 0 30px;
+   margin: 20vh 0 0 30px;
    gap: 15px;
 }
 
